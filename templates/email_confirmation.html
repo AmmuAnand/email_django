@@ -1,0 +1,11 @@
+{% autoescape off %}
+
+Welcome to our website
+
+hello {{ name }}!
+
+please confirm your account by clicking on this!
+
+confirmation link: http://{{ domain }}{% url 'activate' uid64=uid token=token %}
+
+{% endautoescape %}
