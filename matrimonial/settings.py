@@ -29,9 +29,9 @@ EMAIL_PORT = EMAIL_PORT
 SECRET_KEY = 'django-insecure-elg@u0me$6@xvq+&s8r!v3h@5w-8&er^%(lkk$y51bb#$z0q%v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['email-django-verification.herokuapp.com','localhost']
 
 
 # Application definition
